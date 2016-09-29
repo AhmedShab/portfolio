@@ -1,6 +1,12 @@
 .about {
-  background-color: red;
-  // background-image: url("https://i.ytimg.com/vi/cdWj8fXHQLg/maxresdefault.jpg");
-  height: 90vh;
-  width: 100vw;
+  display: flex;
+  justify-content: center;
+  h2 {
+    color: green;
+  }
+  .link {
+    margin-top: 5em;
+    margin-right: 13em;
+
+  }
 }

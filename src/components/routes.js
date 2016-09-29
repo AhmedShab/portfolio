@@ -7,7 +7,7 @@ import Contact from './Contact';
 
 module.exports = (
   <Route path="/" component={App}>
-    <Route path="/about" component={About}/>
+    <IndexRoute component={About}/>
     <Route path="/work" component={Work}/>
     <Route path="/contact" component={Contact}/>
   </Route>

@@ -12,8 +12,7 @@ export default class App extends Component {
     <Navbar inverse>
       <Navbar.Collapse>
         <Nav>
-          <li><NavLink to="/" onlyActiveOnIndex>Home</NavLink></li>
-          <li><NavLink to="/about">About</NavLink></li>
+          <li><NavLink to="/">About</NavLink></li>
           <li><NavLink to="/work">Work</NavLink></li>
           <li><NavLink to="/contact">Contact</NavLink></li>
         </Nav>
