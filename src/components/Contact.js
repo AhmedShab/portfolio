@@ -10,7 +10,7 @@ export default class Contact extends Component {
         <div className="contact">
           <h2>
             Thanks for visting my website, <br/><br/>
-          Please feel free to contact anytime. Would love to hear from you
+            Please feel free to contact anytime. Would love to hear from you
         </h2>
         <p>Flick me an email to ahmed.vuw@gmail.com</p>
         <div className= "contact-links">

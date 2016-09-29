@@ -5,7 +5,7 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: [
-    `./src/index.js`,
+    `${__dirname}/src/index.js`,
   ],
   output: {
     path: publicPath,
@@ -30,9 +30,7 @@ module.exports = {
   resolve: {
     extensions: ['', '.js', '.jsx'],
   },
-  resolveLoader: {
-    root: path.join(__dirname, 'node_modules'),
-  },
+
   devServer: {
     historyApiFallback: true,
     contentBase: './',
