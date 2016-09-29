@@ -1,12 +1,21 @@
 .about {
   display: flex;
   justify-content: center;
+
   h2 {
     color: green;
   }
   .link {
     margin-top: 5em;
     margin-right: 13em;
+  }
+}
 
+.work {
+  div {
+    h2 {
+      margin-left: 19em;
+      padding-bottom: 50px;
+    }
   }
 }
