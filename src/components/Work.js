@@ -16,7 +16,7 @@ export default class Work extends Component {
             </a>
           </Col>
           <Col xs={3} md={3}>
-            <a href="https://echo-project.herokuapp.com/"
+            <a href="https://audioeats.herokuapp.com/"
                target="_blank">
               <Image src="images/foodBytes.png" thumbnail />
             </a>
@@ -32,18 +32,29 @@ export default class Work extends Component {
     );
 
     return (
-      <div className="work">
-        <div>
-          <h2>Check out my projects</h2>
+      <div>
+        <div className="work">
+          <div>
+            <h2>Check out my projects</h2>
+          </div>
+          {imageShapeInstance}
         </div>
-        {imageShapeInstance}
-        <NavLink to="/contact">
-          <FontAwesome
-            className="link"
-            name='a fa-arrow-circle-right'
-            size='4x'
-            />
-        </NavLink>
+        <div className= "next-previous">
+          <NavLink to="/">
+            <FontAwesome
+              className="link"
+              name='a fa-arrow-circle-left'
+              size='4x'
+              />
+          </NavLink>
+          <NavLink to="/contact">
+            <FontAwesome
+              className="link"
+              name='a fa-arrow-circle-right'
+              size='4x'
+              />
+          </NavLink>
+        </div>
       </div>
     );
   }
