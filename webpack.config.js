@@ -1,15 +1,14 @@
 const path = require('path');
-const publicPath = path.resolve(__dirname, 'public');
+const srcPath = path.join(__dirname, 'src');
+const publicPath = path.join(__dirname, 'public');
 const debug = process.env.NODE_ENV !== 'production';
 const webpack = require('webpack');
 
 module.exports = {
-  entry: {
-    client: path.join(__dirname, 'src/index.js'),
-  },
+  context: srcPath,
+  entry: './index.js',
   output: {
     path: publicPath,
-    publicPath: '/',
     filename: 'bundle.js',
   },
   module: {
