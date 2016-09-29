@@ -3,8 +3,9 @@
   justify-content: center;
 
   h2 {
-    color: green;
+
   }
+
   .link {
     margin-top: 5em;
     margin-right: 13em;
@@ -14,16 +15,34 @@
 .work {
   div {
     transition: width 2s;
+
     h2 {
       margin-left: 19em;
       padding-bottom: 50px;
     }
+
     .link {
       margin-left: 11em;
     }
+
     .thumbnail {
-      width:540px;
+      width: 540px;
       height: auto;
     }
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .contact-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 3em;
   }
 }
