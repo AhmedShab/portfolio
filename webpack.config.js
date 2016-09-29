@@ -1,11 +1,14 @@
 const path = require('path');
+const publicPath = path.resolve(__dirname, 'public');
+const debug = process.env.NODE_ENV !== 'production';
+const webpack = require('webpack');
 
 module.exports = {
   entry: [
     './src/index.js',
   ],
   output: {
-    path: __dirname,
+    path: publicPath,
     publicPath: '/',
     filename: 'bundle.js',
   },
@@ -31,4 +34,9 @@ module.exports = {
     historyApiFallback: true,
     contentBase: './',
   },
+  plugins: debug ? [] : [
+    new webpack.optimize.DedupePlugin(),
+    new webpack.optimize.OccurenceOrderPlugin(),
+    new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
+  ],
 };
