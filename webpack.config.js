@@ -4,9 +4,9 @@ const debug = process.env.NODE_ENV !== 'production';
 const webpack = require('webpack');
 
 module.exports = {
-  entry: [
-    `${__dirname}/src/index.js`,
-  ],
+  entry: {
+    client: path.join(__dirname, 'src/index.js'),
+  },
   output: {
     path: publicPath,
     publicPath: '/',
