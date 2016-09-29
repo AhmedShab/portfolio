@@ -12,6 +12,12 @@
   }
 }
 
+.next {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
 .work {
   div {
     transition: width 2s;
@@ -39,8 +45,6 @@
   flex-direction: column;
 
   .contact-links{
-    display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: row;
     padding: 3em;
