@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
 import { Grid, Row, Col, Image } from 'react-bootstrap';
+import NavLink from './NavLink';
+import FontAwesome from 'react-fontawesome';
 
 export default class Work extends Component {
   render() {
@@ -8,13 +10,22 @@ export default class Work extends Component {
       <Grid>
         <Row>
           <Col xs={3} md={3}>
-            <Image src="images/echo.png" thumbnail />
+            <a href="https://echo-project.herokuapp.com/"
+               target="_blank">
+              <Image src="images/echo.png" thumbnail />
+            </a>
           </Col>
           <Col xs={3} md={3}>
-            <Image src="images/foodBytes.png" thumbnail />
+            <a href="https://echo-project.herokuapp.com/"
+               target="_blank">
+              <Image src="images/foodBytes.png" thumbnail />
+            </a>
           </Col>
           <Col xs={3} md={3}>
-            <Image src="images/blog.png" thumbnail />
+            <a href="https://rails-my-blog.herokuapp.com/"
+               target="_blank">
+              <Image src="images/blog.png" thumbnail />
+            </a>
           </Col>
         </Row>
       </Grid>
@@ -26,6 +37,13 @@ export default class Work extends Component {
           <h2>Check out my projects</h2>
         </div>
         {imageShapeInstance}
+        <NavLink to="/contact">
+          <FontAwesome
+            className="link"
+            name='a fa-arrow-circle-right'
+            size='4x'
+            />
+        </NavLink>
       </div>
     );
   }
