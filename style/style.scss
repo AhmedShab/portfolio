@@ -2,10 +2,6 @@
   display: flex;
   justify-content: center;
 
-  h2 {
-
-  }
-
   .link {
     margin-top: 5em;
     margin-right: 13em;
@@ -62,3 +58,11 @@
     padding: 3em;
   }
 }
+
+.row { margin: 20px;
+border: 2px solid red;
+}
+
+  h1 {
+  color:red;
+  }
