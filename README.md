@@ -9,7 +9,8 @@ You will need Node.js 6.4.0 or grater then:
 
 ``
 git clone https://github.com/AhmedShab/portfolio
-cd ghost
+
+cd portfolio 
 ``
 
 Install npm:
