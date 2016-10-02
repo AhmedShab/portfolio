@@ -8,7 +8,7 @@ I'm creating this to show developers what I have been working on and my technica
 You will need Node.js 6.4.0 or grater then:
 
 ``
-git clone git://github.com/tryghost/ghost.git
+git clone https://github.com/AhmedShab/portfolio
 cd ghost
 ``
 
