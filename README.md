@@ -11,11 +11,13 @@ You will need Node.js 6.4.0 or grater then:
 git clone git://github.com/tryghost/ghost.git
 cd ghost
 ``
+
 Install npm:
 
 ``
 npm install
 ``
+
 Then run it locall with:
 
 ``
