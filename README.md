@@ -6,11 +6,13 @@ I'm creating this to show developers what I have been working on and my technica
 
 ### Developer Setup
 You will need Node.js 6.4.0 or grater then:
+
 ``
 git clone git://github.com/tryghost/ghost.git
 cd ghost
 ``
 Install npm:
+
 ``
 npm install
 ``
