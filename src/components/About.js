@@ -105,7 +105,7 @@ export default class About extends Component {
        </div>
      </div>
        <div className="col-md-12 well">
-         <h4 className="copyright"> &copy; 2016, Ahmed Shabaan  ||  FrontEnd Design - Amaan Vaddadi</h4>
+         <h5 className="copyright"> &copy; 2016, Ahmed Shabaan  ||  FrontEnd Design - Amaan Vaddadi</h5>
        </div>
    </div>
 
