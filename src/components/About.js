@@ -14,7 +14,7 @@ export default class About extends Component {
    < div className = " row bio col-md-3" >
       <div className="row">
       <div className="BioImage thumbnail">
-        <img src="../images/echo.png" alt="..."></img>
+        <img src="../images/Ahmed.png" alt="..."></img>
       </div>
       <div className="info">
         < h1 > Hello! < /h1 > <br></br >
