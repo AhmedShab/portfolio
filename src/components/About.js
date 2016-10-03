@@ -17,15 +17,15 @@ export default class About extends Component {
       <div className="BioImage thumbnail">
         <img src="../images/Ahmed.png" alt="..."></img>
       </div>
-      <div className="info">
-        < h1 > Hello! < /h1 > <br></br >
-        < h4 > My name is Ahmed. I am a full stack web developer. Making web applications is my passion. I enjoy my work and always looking forward to create new projects
+      <div className=" text-justify info">
+        <h1 className="text-center"> Hello! </h1>
+        <h4> My name is Ahmed. I am a full stack web developer. Making web applications is my passion. I enjoy my work and always looking forward to create new projects.
       </h4>
       </div>
      </div>
      <hr></hr>
      <div className="know row">
-       <h4>Know me better</h4>
+       <h4>You can check my work or stay in touch by clicking the links below</h4>
          <a href="https://nz.linkedin.com/in/ahmed-shaaban-4b4546105"
            target="_blank">
            <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
@@ -37,6 +37,12 @@ export default class About extends Component {
          <a href="https://twitter.com/A_Shab_"
            target="_blank">
            <i className="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+         </a>
+         <a href="mailto:ahmed.vuw@gmail.com">
+           <i className="fa fa-envelope fa-2x" aria-hidden="true"></i>
+         </a>
+         <a href="tel:021-21-16539">
+           <i className="fa fa-phone fa-2x" aria-hidden="true"></i>
          </a>
      </div>
    </div>
@@ -81,7 +87,7 @@ export default class About extends Component {
      <div className="row well">
        <h1 className="text-center">Languages, Frameworks and Tools</h1>
          <hr></hr>
-       <div className=" logo col-md-12">
+       <div className="  col-md-12">
          <img className=" img-responsive logo " width="80px" height="100px" src="../images/JavaScript.png"></img>
          <img className="img-responsive logo " width="100px" height="100px" src="../images/HTML5_Logo_512.png"></img>
          <img className= "img-responsive logo " width="80px" height="100px" src="../images/css3.png"></img>
@@ -89,24 +95,25 @@ export default class About extends Component {
          <img className="img-responsive logo " width="100px" height="100px" src="../images/sass-logo.png"></img>
          <img className="img-responsive logo " width="100px" height="100px" src="../images/jQurery.gif"></img>
          <img className="img-responsive logo " width="120px" height="120px" src="../images/es6-logo.png"></img>
+         <img className="img-responsive logo " width="100px" height="100px" src="../images/angularjs.png"></img>
+         <img className="img-responsive logo " width="100px" height="100px" src="../images/DotNet-513.png"></img>
+         <img className="img-responsive logo " width="100px" height="100px" src="../images/rubyonrails.png"></img>
+         <img className="img-responsive logo " width="100px" height="100px" src="../images/d3js.png"></img>
          <img className="img-responsive logo " width="100px" height="100px" src="../images/react-logo.png"></img>
          <img className="img-responsive logo " width="130px" height="100px" src="../images/bootstrap_logo.png"></img>
          <img className=" img-responsive logo " width="200px" height="80px" src="../images/mobile-first.png"></img>
          <img className=" img-responsive logo " width="220px" height="60px" src="../images/trello-logo-blue.png"></img>
-         <img className=" img-responsive logo " width="220px" height="100px" src="../images/balsamiq-logo-1.png"></img>
          <img className=" img-responsive logo " width="100px" height="100px" src="../images/aglie2.png"></img>
          <img className=" img-responsive logo " width="100px" height="50px" src="../images/GitHub-Logo.png"></img>
 
        </div>
      </div>
-     < NavLink className = "next"
-     to = "/work" >
-     < FontAwesome name = 'a fa-arrow-circle-right'
-     size = '3x' / >
-     < /NavLink>
+     <div className="col-md-12 well">
+       <h4 className="copyright"> &copy; 2016, Ahmed Shabaan  ||  FrontEnd Design - Amaan Vaddadi</h4>
+     </div>
    </div>
 
-   < /div >
+   </div>
   );
  }
 }

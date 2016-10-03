@@ -87,11 +87,12 @@ body{
 .logo{
   display: inline-block;
   border: none;
-  margin: 2px;
+  margin: 1em;
 
 }
 .fa{
-margin: 1px;
+margin: 3px;
+color:black;
 
 }
 .know{
@@ -106,3 +107,14 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+ .footer {
+  text-align: center;
+  width: 100%;
+  min-height: 30px;
+  padding: 10px;
+  .copyright {
+    top: -8px;
+    font-size: .75em;
+   }
+ }
