@@ -78,6 +78,16 @@ export default class About extends Component {
        <h1 className="text-center">Languages, Frameworks and Tools</h1>
        <div className="col-md-6">
          <h1>logos</h1>
+         <img className=" img-responsive logo thumbnail" width="80px" height="100px" src="../images/JavaScript.png"></img>
+         <img className="logo thumbnail" width="100px" height="100px" src="../images/HTML5_Logo_512.png"></img>
+         <img className= "logo thumbnail" width="80px" height="100px" src="../images/css3.png"></img>
+         <img className="logo thumbnail" width="100px" height="100px" src="../images/node.png"></img>
+         <img className="logo thumbnail" width="100px" height="100px" src="../images/sass-logo.png"></img>
+         <img className="logo thumbnail" width="100px" height="100px" src="../images/jQurery.gif"></img>
+         <img className="logo thumbnail" width="120px" height="120px" src="../images/es6-logo.png"></img>
+         <img className="logo thumbnail" width="100px" height="100px" src="../images/react-logo.png"></img>
+         <img className="logo thumbnail" width="130px" height="100px" src="../images/bootstrap_logo.png"></img>
+
        </div>
        <div className="col-md-6">
          <h1>Tools</h1>
