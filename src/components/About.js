@@ -23,6 +23,7 @@ export default class About extends Component {
       </h4>
       </div>
      </div>
+     <hr></hr>
      <div className="know row">
        <h4>Know me better</h4>
          <a href="https://nz.linkedin.com/in/ahmed-shaaban-4b4546105"
@@ -46,11 +47,12 @@ export default class About extends Component {
        {/* Projects row */}
      <div className=" well row">
        <h1> Projects</h1>
+         <hr></hr>
        <div className="col-md-4">
          <div className="img-responsive logo">
            <a href="https://echo-project.herokuapp.com/"
               target="_blank">
-          <img src="../images/echo.png" width="200px" height="300px" alt="..."></img>
+          <img src="../images/echo.png" width="250px" height="300px" alt="..."></img>
           </a>
           <p>...</p>
          </div>
@@ -69,7 +71,7 @@ export default class About extends Component {
          <div className="img-responsive logo">
            <a href="https://rails-my-blog.herokuapp.com/"
               target="_blank">
-              <img src="../images/blog.png" width="300px" height="200px"alt="..."></img>
+              <img src="../images/blog.png" width="250px" height="200px" alt="..."></img>
            </a>
            <p>...</p>
          </div>
@@ -78,6 +80,7 @@ export default class About extends Component {
        {/* Tools coloumn */}
      <div className="row well">
        <h1 className="text-center">Languages, Frameworks and Tools</h1>
+         <hr></hr>
        <div className=" logo col-md-12">
          <img className=" img-responsive logo " width="80px" height="100px" src="../images/JavaScript.png"></img>
          <img className="img-responsive logo " width="100px" height="100px" src="../images/HTML5_Logo_512.png"></img>
