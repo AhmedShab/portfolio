@@ -60,7 +60,6 @@ export default class About extends Component {
               target="_blank">
           <img src="../images/echo.png" width="250px" height="300px" alt="..."></img>
           </a>
-          <p>...</p>
          </div>
        </div>
 
@@ -70,16 +69,14 @@ export default class About extends Component {
               target="_blank">
               <img src="../images/foodBytes.png"width="250px" height="300px" alt="..."></img>
           </a>
-            <p>...</p>
          </div>
        </div>
        <div className="col-md-4">
          <div className="img-responsive logo">
            <a href="https://rails-my-blog.herokuapp.com/"
               target="_blank">
-              <img src="../images/blog.png" width="250px" height="200px" alt="..."></img>
+              <img src="../images/blog.png" width="250px" height="300px" alt="..."></img>
            </a>
-           <p>...</p>
          </div>
        </div>
      </div>
@@ -105,15 +102,14 @@ export default class About extends Component {
          <img className=" img-responsive logo " width="220px" height="60px" src="../images/trello-logo-blue.png"></img>
          <img className=" img-responsive logo " width="100px" height="100px" src="../images/aglie2.png"></img>
          <img className=" img-responsive logo " width="100px" height="50px" src="../images/GitHub-Logo.png"></img>
-
        </div>
      </div>
-     <div className="col-md-12 well">
-       <h4 className="copyright"> &copy; 2016, Ahmed Shabaan  ||  FrontEnd Design - Amaan Vaddadi</h4>
-     </div>
+       <div className="col-md-12 well">
+         <h4 className="copyright"> &copy; 2016, Ahmed Shabaan  ||  FrontEnd Design - Amaan Vaddadi</h4>
+       </div>
    </div>
 
-   </div>
+  </div>
   );
  }
 }
