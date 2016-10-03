@@ -59,10 +59,28 @@
   }
 }
 
-.row { margin: 20px;
-border: 2px solid red;
+.row {
+  margin: 20px;
+  border: 2px solid red;
+
 }
 
   h1 {
-  color:red;
+  color:blue;
   }
+
+// temp styles
+.col-md-2 {
+  border: 2px solid green;
+}
+.col-md-4 {
+  border: 2px solid green;
+}
+
+.col-md-6 {
+  border: 2px solid green;
+}
+
+.col-md-8 {
+  border: 2px solid green;
+}
