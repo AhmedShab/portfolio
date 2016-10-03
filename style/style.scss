@@ -1,11 +1,7 @@
-.about {
-  display: flex;
-  justify-content: center;
-
-  .link {
-    margin-top: 5em;
-    margin-right: 13em;
-  }
+body{
+  background-color: #ffffff;
+  color: #2B2B1E;
+  font-family: 'Roboto', sans-serif;
 }
 
 .next-previous {
@@ -66,7 +62,6 @@
 }
 
   h1 {
-  color:blue;
   }
 
 // temp styles
@@ -90,5 +85,15 @@
   text-align: center;
 }
 .logo{
-  display: inline-flex;
+  display: inline-block;
+  border: none;
+  margin: 2px;
+
+}
+.fa{
+margin: 1px;
+
+}
+.know{
+  text-align: center;
 }
