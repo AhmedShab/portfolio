@@ -1,15 +1,7 @@
-.about {
-  display: flex;
-  justify-content: center;
-
-  h2 {
-
-  }
-
-  .link {
-    margin-top: 5em;
-    margin-right: 13em;
-  }
+body{
+  background-color: #ffffff;
+  color: #2B2B1E;
+  font-family: 'Roboto', sans-serif;
 }
 
 .next-previous {
@@ -61,4 +53,56 @@
     flex-direction: row;
     padding: 3em;
   }
+}
+
+.row {
+  margin: 5px;
+  // border: 2px solid red;
+
+}
+
+  h1 {
+  }
+
+// temp styles
+.col-md-2 {
+  // border: 2px solid green;
+}
+.col-md-4 {
+  // border: 2px solid green;
+}
+
+.col-md-6 {
+  // border: 2px solid green;
+}
+
+.col-md-8 {
+  // border: 2px solid green;
+}
+
+.main{
+
+  text-align: center;
+}
+.logo{
+  display: inline-block;
+  border: none;
+  margin: 2px;
+
+}
+.fa{
+margin: 1px;
+
+}
+.know{
+  text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
 }
