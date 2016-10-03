@@ -23,7 +23,19 @@ export default class About extends Component {
       </div>
      </div>
      <div className="row">
-
+       <h4>Know me better</h4>
+         <a href="https://nz.linkedin.com/in/ahmed-shaaban-4b4546105"
+           target="_blank">
+           <i className="fa fa-linkedin-square fa-4x" aria-hidden="true"></i>
+         </a>
+         <a href="https://github.com/AhmedShab/"
+           target="_blank">
+           <i className="fa fa-github-square fa-4x" aria-hidden="true"></i>
+         </a>
+         <a href="https://twitter.com/A_Shab_"
+           target="_blank">
+           <i className="fa fa-twitter-square fa-4x" aria-hidden="true"></i>
+         </a>
      </div>
 
    </div>
