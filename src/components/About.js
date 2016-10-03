@@ -91,6 +91,12 @@ export default class About extends Component {
        </div>
        <div className="col-md-6">
          <h1>Tools</h1>
+          <img className=" img-responsive logo thumbnail" width="200px" height="80px" src="../images/mobile-first.png"></img>
+          <img className=" img-responsive logo thumbnail" width="220px" height="60px" src="../images/trello-logo-blue.png"></img>
+          <img className=" img-responsive logo thumbnail" width="220px" height="100px" src="../images/balsamiq-logo-1.png"></img>
+          <img className=" img-responsive logo thumbnail" width="100px" height="100px" src="../images/aglie2.png"></img>
+          <img className=" img-responsive logo thumbnail" width="200px" height="70px" src="../images/GitHub-Logo.png"></img>
+
        </div>
 
      </div>
