@@ -8,46 +8,56 @@ import NavLink from './NavLink';
 
 export default class About extends Component {
  render() {
-  return ( < div className = "row" >
+  return (
+  < div className = "row" >
     {/* Bio coloumn */}
-   < div className = " row bio col-md-2" >
-     < h1 > Hello! < /h1 > <br></br >
-     < h4 > My name is Ahmed. I am a full stack web developer. Making web applications is my passion. I enjoy my work and always looking forward to create new projects
-   </h4>
-   < /div >
-     {/* Main coloumn */}
-   <div className="main col-md-8">
-       {/* Projects row */}
+   < div className = " row bio col-md-3" >
+      <div className="row">
+      <div className="BioImage thumbnail">
+        <img src="../images/echo.png" alt="..."></img>
+      </div>
+      <div className="info">
+        < h1 > Hello! < /h1 > <br></br >
+        < h4 > My name is Ahmed. I am a full stack web developer. Making web applications is my passion. I enjoy my work and always looking forward to create new projects
+      </h4>
+      </div>
+     </div>
      <div className="row">
+
+     </div>
+
+   </div>
+     {/* Main coloumn */}
+   <div className=" col-md-8">
+       {/* Projects row */}
+     <div className=" main row">
+       <h1> Check my Projects</h1>
        <div className="col-md-4">
          <div className="thumbnail">
-          <img src="..." alt="..."></img>
-          <div className="caption">
-            <h3>Thumbnail label</h3>
-            <p>...</p>
-            <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
-          </div>
+           <a href="https://echo-project.herokuapp.com/"
+              target="_blank">
+          <img src="../images/echo.png" alt="..."></img>
+          </a>
+          <p>...</p>
          </div>
        </div>
 
        <div className="col-md-4">
          <div className="thumbnail">
-          <img src="..." alt="..."></img>
-          <div className="caption">
-            <h3>Thumbnail label</h3>
+          <a href="https://audioeats.herokuapp.com/"
+              target="_blank">
+              <img src="../images/foodBytes.png" alt="..."></img>
+          </a>
             <p>...</p>
-            <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
-          </div>
          </div>
        </div>
        <div className="col-md-4">
          <div className="thumbnail">
-          <img src="..." alt="..."></img>
-          <div className="caption">
-            <h3>Thumbnail label</h3>
-            <p>...</p>
-            <p><a href="#" className="btn btn-primary" role="button">Button</a> <a href="#" className="btn btn-default" role="button">Button</a></p>
-          </div>
+           <a href="https://rails-my-blog.herokuapp.com/"
+              target="_blank">
+              <img src="../images/blog.png" alt="..."></img>
+           </a>
+           <p>...</p>
          </div>
        </div>
      </div>
