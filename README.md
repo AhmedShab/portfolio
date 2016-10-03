@@ -4,6 +4,10 @@
 
 I'm creating this to show developers what I have been working on and my technical skills. Therefore, making this portfolio from scratch
 
+### Wireframe
+
+
+
 ### Developer Setup
 You will need Node.js 6.4.0 or grater then:
 
