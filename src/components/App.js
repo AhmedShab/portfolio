@@ -21,7 +21,7 @@ export default class App extends Component {
   );
     return (
       <div>
-        {navbarInstance}
+//         {navbarInstance}
         {this.props.children}
       </div>
     );
