@@ -1,5 +1,6 @@
 var debug = process.env.NODE_ENV !== 'production';
 var webpack = require('webpack');
+var path = require('path');
 
 module.exports = {
   context: __dirname,
@@ -22,6 +23,12 @@ module.exports = {
         test: /\.scss$/,
         loaders: ['style', 'css', 'sass'],
       },
+    ],
+  },
+  resolve: {
+    modules: [
+      path.join(__dirname, 'src'),
+      'node_modules',
     ],
   },
   plugins: debug ? [] : [
