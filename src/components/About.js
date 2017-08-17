@@ -34,7 +34,7 @@ export default class About extends Component {
            target="_blank">
            <i className="fa fa-github-square fa-2x" aria-hidden="true"></i>
          </a>
-         <a href="https://twitter.com/A_Shab_"
+         <a href="https://twitter.com/ahmed_s_88/"
            target="_blank">
            <i className="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
          </a>

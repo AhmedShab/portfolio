@@ -1,14 +1,12 @@
-const path = require('path');
-const srcPath = path.join(__dirname, 'src');
-const publicPath = path.join(__dirname, 'public');
-const debug = process.env.NODE_ENV !== 'production';
-const webpack = require('webpack');
+var debug = process.env.NODE_ENV !== 'production';
+var webpack = require('webpack');
 
 module.exports = {
-  context: srcPath,
-  entry: './index.js',
+  context: __dirname,
+  devtool: debug ? 'inline-sourcemap' : null,
+  entry: './src/index.js',
   output: {
-    path: publicPath,
+    path: __dirname + '/public',
     filename: 'bundle.js',
   },
   module: {
@@ -25,14 +23,6 @@ module.exports = {
         loaders: ['style', 'css', 'sass'],
       },
     ],
-  },
-  resolve: {
-    extensions: ['', '.js', '.jsx', '.scss'],
-  },
-
-  devServer: {
-    historyApiFallback: true,
-    contentBase: './',
   },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),

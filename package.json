@@ -11,11 +11,9 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch"
   },
-
   "engines": {
     "node": "6.4.0"
   },
-
   "author": "",
   "license": "ISC",
   "devDependencies": {
